@@ -1,22 +1,24 @@
 /*---------------------------
 -----------fonts-----------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
 
-/*--------------------------- 
-------------body-----------*/
 
-body{
-    margin-top: 65px;
-    margin-left: 120px;
-    margin-right: 120px;
-}
+
+
+
 
 
 /*---------------------------
 --------header start ------*/
 
 .head-item{
+    margin-top: 58px;
+    margin-left: 120px;
+    margin-right: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,10 +44,14 @@ body{
 
 
 
+
 /* --------------------------
 ---prebook section start---*/
 
 .prebook-item{
+    margin-top: 58px;
+    margin-left: 120px;
+    margin-right: 132px;
     display: flex;
     justify-content: space-between;
 }
@@ -60,15 +66,27 @@ body{
     font-size: 52px;
     font-weight: 700px;
 }
-.prebook-button{
-    padding-left: 20px;
+.prebook-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 196px;
+    height: 44px;
+    background-image: linear-gradient(#6e1fea, #4289ff);
+}
+.prebook-btn-text{
+    padding-left: 15px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 700px;
     color: white;
-    border: 1px solid white;
-    border-radius: 25px;
-    background-image: linear-gradient(#6e1fea, #4289ff);
+}
+.arrow{
+    color: white;
+    font-size: 16px;
+    padding-right: 16px;
 }
 .prebook-banner{
     margin-right: 45px;
@@ -78,4 +96,318 @@ body{
 .prebook-banner img{
     width: 440px;
     height: 414px;
+}
+
+
+
+
+
+/* --------------------------
+--suggested site sectiion--*/
+
+
+.suggested-site{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin: 170px 165px 0 165px;
+    padding: 34px 60px 34px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/* --------------------------
+-------items section-------*/
+
+
+.item-cont{
+    margin: 100px 197px 0px 197px;
+}
+h2.items-title{
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600px;
+}
+.items {
+    display: grid;
+    grid-template-columns: 329px 329px 329px;
+    grid-gap: 30px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.item{
+    width: 329px;
+    height: 486px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.144);
+}
+.item img{
+    padding-top: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+    height: 256px;
+}
+.item-name {
+    margin-top: 16px;
+    margin-bottom: 6px;
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+.item-cost{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    padding-left: 15px;
+}
+.item-rate{
+    display: flex;
+    padding-left: 13px;
+    margin-right: 165px;
+    justify-content: space-between;
+    width: 122px;
+    height: 32px;
+}
+.star-icon{
+    font-size: 11px;
+}
+.star{
+    margin-top: 8px;
+    width: 5px; 
+    color: #FFC014;
+    padding: 4px;
+}
+.rate-point{
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+}
+.item-desc {
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 118px;
+    margin-bottom: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+}
+.seemore-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1155px;
+    margin-top: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+.see-more-text{
+    font-family: 'Poppins', sans-serif;
+    color: #6e1fea;
+    font-weight: 700;
+    font-size: 16px;
+}
+.seearrow{
+    color: #6e1fea;
+    font-size: 16px;
+    padding-right: 16px;
+}
+
+
+
+
+
+/*----------------------------- 
+-------join us section-------*/
+
+.join-dtl{
+    margin-top: 100px;
+    margin-left: 305px;
+    margin-bottom: 80px;
+    display: flex;
+}
+.join-img img{
+    width: 404px;
+    height: 270px;
+    border-radius: 5px;
+}
+.join-info{
+    padding-left: 143px;
+}
+.join-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+}  
+.join-desc{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+}
+.joinus-btn {
+    width: 155px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    background-image: linear-gradient(#6e1fea, #4289ff);
+}
+.joinus-btn-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    padding-left: 20px;
+}
+.joinusarrow{
+    color: white;
+    font-size: 16px;
+}
+
+
+
+/*----------------------------- 
+------------footer-----------*/
+.site-end{
+    margin-left:0;
+    margin-right:0;
+    background-color: #0A0826;
+}
+.end-title{
+    padding-top: 50px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700px;
+    color: white;
+    text-align: center;
+}
+.end-info{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700px;
+    color: white;
+    text-align: center;
+}
+.last-icon{
+    display: flex;
+    justify-content: center;
+}
+.fab{
+    color:white;
+
+}
+
+
+
+/*-----------------------------
+-------media queries---------*/
+
+/* mobile devices */
+@media only screen and (max-width:688px) {
+    .head-item{
+        width:100%;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .item-type h2 {
+        margin-bottom: 0;
+    }
+    .nav-bar{
+        padding:0;
+        margin-left: 0;
+        margin-right: 0;
+    
+    }
+    .nav-bar a{
+        padding: 4px;
+    }
+   
+    }
+    .prebook-item, .join-dtl {
+        flex-direction: column-reverse;
+        margin-left: 2px;
+        margin-right:2px;
+        padding: 0;
+    }
+    .prebook-banner{
+        /* margin-right: 45px; */
+        border: 1px solid #F1E4FF;
+        border-radius: 50%;
+    }
+    .prebook-banner img{
+        width: 257px;
+        height: 257px;
+        margin-left: 55px;
+        margin-top: 10px;
+    }
+
+    .prebook-info {
+        width: 100%;
+        height: 100%;
+    }
+    .site-end {
+        display: none;
+    }
+    .prebook-info h1{
+        font-size: 34px;
+        text-align: center;
+    }
+    .prebook-button {
+        margin-left: 98px;
+    }
+    .suggested-site{
+        margin-left:0;
+        margin-right:0;
+        width: 275.21px;
+        height: 61.46px;
+    }
+    .suggested-site img {
+        width: 51.17px;
+        height: 15.24px;
+        padding: 2px;
+    }
+    .items-title {
+        
+       text-align: center;
+        
+    }
+    .items{
+        width: 100%;
+        margin:0;
+        padding:0;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+
+    .join-title, .join-desc{
+
+        width: 100%;
+        margin:0;
+        padding:0;
+    }
+    .join-title h1{
+        width:100%;
+        margin:0;
+        padding:0;
+        font-size: 34px;
+        text-align: center;
+    }
+
 }
