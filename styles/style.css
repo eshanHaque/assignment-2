@@ -1,0 +1,81 @@
+/*---------------------------
+-----------fonts-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/*--------------------------- 
+------------body-----------*/
+
+body{
+    margin-top: 65px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+/*---------------------------
+--------header start ------*/
+
+.head-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item-type{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700px;
+}
+.nav-bar a, i{
+    padding: 17px;
+}
+.nav-bar a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+    color: black;
+    text-decoration: none;
+}
+/*---------------------------
+--------header end ------*/
+
+
+
+
+/* --------------------------
+---prebook section start---*/
+
+.prebook-item{
+    display: flex;
+    justify-content: space-between;
+}
+.prebook-info{
+    margin-top: 115px;
+    width: 582px;
+    height: 270px;
+}
+.prebook-info h1{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-weight: 700px;
+}
+.prebook-button{
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-image: linear-gradient(#6e1fea, #4289ff);
+}
+.prebook-banner{
+    margin-right: 45px;
+    border: 1px solid #F1E4FF;
+    border-radius: 50%;
+}
+.prebook-banner img{
+    width: 440px;
+    height: 414px;
+}
