@@ -318,7 +318,7 @@ h2.items-title{
 -------media queries---------*/
 
 /* mobile devices */
-@media only screen and (max-width:688px) {
+@media only screen and (min-width:488px) and (max-width:688px} {
     .head-item{
         width:100%;
         flex-direction: column;
